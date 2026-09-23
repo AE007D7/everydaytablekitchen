@@ -90,3 +90,9 @@ html{overflow-x:hidden}body{min-width:0;overflow-wrap:break-word}
 .brand img{display:block;flex:none;width:42px;height:42px;border-radius:11px}
 @media(max-width:480px){.brand{font-size:21px;gap:9px}.brand img{width:38px;height:38px}}
 @media(max-width:350px){.brand{font-size:19px;gap:8px}.brand img{width:36px;height:36px}}
+.author-line{margin:20px 0 0;color:#536054;font-size:14px;font-weight:600}
+.author-line a{color:var(--green);text-underline-offset:3px}
+.author-profile{display:grid;grid-template-columns:minmax(0,250px) minmax(0,1fr);gap:28px;align-items:center;margin:25px 0 36px}
+.author-profile img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:cover;border-radius:16px}
+.author-profile .lead{margin:8px 0 12px}.author-profile p:last-child{margin-bottom:0}
+@media(max-width:600px){.author-profile{grid-template-columns:1fr;gap:20px}.author-profile img{max-width:280px}}
