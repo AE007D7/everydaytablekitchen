@@ -204,4 +204,7 @@ html{overflow-x:hidden}body{min-width:0;overflow-wrap:break-word}
  footer a{display:inline-flex;align-items:center;min-height:44px;margin-right:0}
 }
 @media(max-width:350px){.wrap,.article,.page{padding-left:15px;padding-right:15px}.browse{padding:18px 15px}.brand{font-size:21px}}
+.section.wrap{padding-left:24px;padding-right:24px}
+@media(max-width:480px){.section.wrap{padding-left:18px;padding-right:18px}}
+@media(max-width:350px){.section.wrap{padding-left:15px;padding-right:15px}}
 ''')
