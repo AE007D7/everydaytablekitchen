@@ -147,3 +147,61 @@ for index, recipe in enumerate(recipes):
 (p/'style.css').write_text((p/'style.css').read_text()+'''
 .recipe-guidance{margin-top:46px;padding-top:3px;border-top:1px solid var(--line)}.recipe-guidance ul{padding-left:22px}.recipe-guidance li{margin:8px 0}.next-recipe{margin-top:40px;padding-top:20px;border-top:1px solid var(--line);font-weight:700}.next-recipe a{color:var(--green)}
 ''')
+
+# Comfortable reading and touch controls at phone and tablet widths.
+(p/'style.css').write_text((p/'style.css').read_text()+'''
+html{overflow-x:hidden}body{min-width:0;overflow-wrap:break-word}
+.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.card,.card-content,.article,.page{min-width:0}
+.brand{flex-shrink:0}nav a{display:inline-flex;align-items:center;min-height:44px}
+.filters button,.recipe-actions .action{min-height:44px;display:inline-flex;align-items:center;justify-content:center}
+.article img,.page img{max-width:100%;height:auto}
+@media(max-width:900px){
+ header .wrap{gap:12px;padding-top:14px;padding-bottom:14px}
+ nav{gap:8px 16px}
+ .hero{padding:58px 0 62px}
+ .section{padding:48px 0}
+ .grid{gap:18px}
+ .card-content{padding:20px}
+ .card h3{font-size:26px}
+ .art{height:200px}
+}
+@media(max-width:700px){
+ header .wrap{align-items:stretch;flex-direction:column;gap:8px}
+ nav{gap:4px 20px}
+ .grid{grid-template-columns:1fr;max-width:580px;margin-inline:auto}
+ .art{height:clamp(190px,52vw,270px)}
+ .hero{padding:48px 0 52px}
+ .hero h1{font-size:clamp(38px,9vw,58px)}
+ .section{padding:42px 0}
+ .browse{margin:25px 0 30px;padding:25px}
+ .article,.page{padding-top:42px;padding-bottom:65px}
+}
+@media(max-width:480px){
+ .wrap{padding-left:18px;padding-right:18px}
+ header .wrap{padding-top:12px;padding-bottom:10px}
+ .brand{font-size:23px}
+ nav{justify-content:space-between;gap:4px}
+ nav a{font-size:14px;padding:0 3px}
+ .hero{padding:40px 0 44px}
+ .hero h1{font-size:clamp(36px,10vw,46px);line-height:1.13}
+ .hero p{font-size:16px;line-height:1.55}
+ .section h2,.article h1,.page h1{font-size:clamp(33px,9vw,42px)}
+ .section{padding:36px 0}
+ .browse{padding:22px 18px;margin:22px 0 26px;border-radius:13px}
+ .browse label{font-size:23px}
+ .browse input{font-size:16px;min-height:54px;padding:12px 14px}
+ .browse .filters{gap:8px;margin-top:16px}
+ .browse .filters button{min-height:44px;padding:9px 14px}
+ .card-content{padding:20px}
+ .card h3{font-size:27px}
+ .recipe-facts{gap:8px 20px}
+ .recipe-actions{gap:9px}
+ .recipe-actions .action{flex:1 1 145px;text-align:center}
+ .article,.page{padding-left:18px;padding-right:18px}
+ .article .lead,.page .lead{font-size:18px}
+ footer .wrap{gap:18px}
+ footer .wrap>div:last-child{display:flex;flex-wrap:wrap;gap:4px 14px}
+ footer a{display:inline-flex;align-items:center;min-height:44px;margin-right:0}
+}
+@media(max-width:350px){.wrap,.article,.page{padding-left:15px;padding-right:15px}.browse{padding:18px 15px}.brand{font-size:21px}}
+''')
