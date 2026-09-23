@@ -1,0 +1,25 @@
+# The Everyday Table
+
+Approachable breakfast, dinner, side dish and dessert recipes with ingredients, steps and cooking notes.
+Writer profile: https://www.everydaytablekitchen.com/about/
+Full sitemap: https://www.everydaytablekitchen.com/sitemap.xml
+
+## Recipes
+- Lemon Chickpea Rice Bowls: https://www.everydaytablekitchen.com/recipes/lemon-chickpea-rice-bowls/
+- Tomato & White Bean Skillet: https://www.everydaytablekitchen.com/recipes/tomato-white-bean-skillet/
+- Apple Cinnamon Baked Oats: https://www.everydaytablekitchen.com/recipes/apple-cinnamon-baked-oats/
+- Crispy Sheet-Pan Potatoes: https://www.everydaytablekitchen.com/recipes/crispy-sheet-pan-potatoes/
+- Creamy Lemon Orzo with Peas: https://www.everydaytablekitchen.com/recipes/creamy-lemon-orzo/
+- Banana Oat Pancakes: https://www.everydaytablekitchen.com/recipes/banana-oat-pancakes/
+- Honey Yogurt Berry Cups: https://www.everydaytablekitchen.com/recipes/honey-yogurt-berry-cups/
+- Roasted Carrot & Tahini Salad: https://www.everydaytablekitchen.com/recipes/roasted-carrot-tahini-salad/
+- Garlic Butter Chicken and Rice: https://www.everydaytablekitchen.com/recipes/garlic-butter-chicken-rice/
+- Roasted Tomato and Red Pepper Soup: https://www.everydaytablekitchen.com/recipes/roasted-tomato-pepper-soup/
+- Spinach and Feta Egg Muffins: https://www.everydaytablekitchen.com/recipes/spinach-feta-egg-muffins/
+- Lemon Herb Salmon Tray Bake: https://www.everydaytablekitchen.com/recipes/lemon-herb-salmon-tray-bake/
+- Creamy Mushroom and Spinach Pasta: https://www.everydaytablekitchen.com/recipes/creamy-mushroom-spinach-pasta/
+- Lentil and Sweet Potato Stew: https://www.everydaytablekitchen.com/recipes/lentil-sweet-potato-stew/
+- Avocado Chickpea Toast: https://www.everydaytablekitchen.com/recipes/avocado-chickpea-toast/
+- Berry Overnight Oats: https://www.everydaytablekitchen.com/recipes/berry-overnight-oats/
+- Sheet Pan Chicken Fajitas: https://www.everydaytablekitchen.com/recipes/sheet-pan-chicken-fajitas/
+- Chocolate Banana Bread: https://www.everydaytablekitchen.com/recipes/chocolate-banana-bread/
